@@ -8,7 +8,6 @@ body {
     margin: 0%;
 }
 
-corrige le si tu le souhaite et applique le a toutes les pages deja faites et aux futur que je vais t'envoyer 
 /* Titre et paragraphe de la section bienvenue */
 .welcome-content h1,
 .welcome-content ,
@@ -44,7 +43,7 @@ corrige le si tu le souhaite et applique le a toutes les pages deja faites et au
 }
 /* Section de bienvenue avec image de fond */
 .welcome-section {
-    background-image: url('../docs/images/entreezoo.webp') !important ;
+    background-image: url('/zoo/docs/images/entreezoo.webp') !important ;
     background-size: cover;
     background-position: center;
     padding: 100px 20px;
