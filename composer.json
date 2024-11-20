@@ -1,0 +1,32 @@
+{
+    "require": {
+        "symfony/skeleton": "^7.1",
+        "doctrine/dbal": "^3.9",
+        "doctrine/doctrine-bundle": "^2.13",
+        "doctrine/orm": "^3.3",
+        "symfony/runtime": "^7.1",
+        "symfony/yaml": "^7.1",
+        "doctrine/doctrine-migrations-bundle": "^3.3",
+        "symfony/dotenv": "^7.1"
+    },
+    "require-dev": {
+        "symfony/maker-bundle": "^1.61"
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/flex": true,
+            "symfony/runtime": true
+        }
+    },
+    "scripts": {
+        "auto-scripts": {
+            "cache:clear": "symfony-cmd",
+            "assets:install %PUBLIC_DIR%": "symfony-cmd"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}

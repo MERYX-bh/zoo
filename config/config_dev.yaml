@@ -1,0 +1,5 @@
+# config/config_dev.yaml
+imports:
+    - { resource: config.yaml }
+
+# Dev-specific configurations

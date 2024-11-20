@@ -1,0 +1,724 @@
+/* Corps de la page */
+body {
+    font-family: 'Lilita One', Arial, sans-serif;
+    background-color: #f3f3f3;
+    font-weight: 600;
+    font-style: normal;
+    height: 100%;
+    margin: 0%;
+}
+
+corrige le si tu le souhaite et applique le a toutes les pages deja faites et aux futur que je vais t'envoyer 
+/* Titre et paragraphe de la section bienvenue */
+.welcome-content h1,
+.welcome-content ,
+.navbar-brand,
+.navbar-nav .nav-link,
+.footer-description,
+.footer-link,
+.footer,
+.create-account-link,
+.form-label,
+.btn-warning,
+.register-content h2,
+.login-content h2 {
+    font-family: 'Lilita One', sans-serif;
+}
+
+/* Styles spécifiques pour les titres */
+.welcome-content h1,
+.navbar-brand,
+.register-content h2,
+.login-content h2 {
+    font-weight: 500; /* Gras pour les titres */
+}
+
+/* Textes normaux */
+.welcome-content p,
+.footer-description,
+.footer p,
+.form-label,
+.create-account-link,
+.footer-link {
+    font-weight: 400; /* Normal pour le texte */
+}
+/* Section de bienvenue avec image de fond */
+.welcome-section {
+    background-image: url('../docs/images/entreezoo.webp') !important ;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+/* Fond sombre et transparent derrière le texte */
+.welcome-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Titre et paragraphe de la section bienvenue */
+.welcome-content h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.welcome-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Conteneur principal de la navbar */
+.navbar {
+    background-color: #315c2b;
+}
+
+/* Logo et titre de la navbar */
+.navbar-brand {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffc107;
+}
+
+/* Espacement entre les éléments de la navbar */
+.navbar-nav {
+    width: 100%;
+    justify-content: space-between; /* Équilibre l'espace entre chaque élément */
+    font-weight: bold;
+    padding:0 15px; /* espacement horizontal */
+    font-size: 1.5em; /*Ajuste la taille */
+}
+
+
+/* Espacement des éléments de la navbar */
+.navbar-nav .nav-item {
+    flex-grow: 1; /* Permet de répartir chaque élément de manière égale */
+    text-align: center;
+}
+
+/* Style des liens de navigation */
+.navbar-nav .nav-link {
+    color: #ffc107;
+    font-weight: bold;
+    padding: 0 15px; /* Espacement horizontal */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+/* Logo à droite */
+.logo img {
+    width: 150px;
+}
+
+/* Styles du carrousel */
+.carousel-inner .carousel-item img {
+    width: 100%;
+    height: 500px; /* Ajustez la hauteur souhaitée ici */
+    object-fit: cover; /* Remplit l'image en maintenant le ratio */
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.carousel-inner .carousel-item img:hover {
+    transform: scale(1.02);
+}
+
+/* Styles du texte de la légende du carrousel */
+.carousel-caption h5 {
+    color: #ffc107; /* Jaune pour le titre de la légende */
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Ombre pour améliorer la lisibilité */
+}
+
+.carousel-caption p {
+    color: #ffffff; /* Blanc pour le texte de la légende */
+    font-size: 1em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Ombre légère */
+}
+
+
+/* Couleur jaune pour les flèches de navigation du carrousel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(70%) sepia(90%) saturate(700%) hue-rotate(5deg) brightness(1.1); /* Filtre pour le jaune */
+}
+
+
+/* Contenu du formulaire de connexion */
+.login-content {
+    background-color: rgba(0, 0, 0, 0.7); /* Fond sombre et transparent */
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Titre du formulaire de connexion */
+.login-content h2 {
+    color: #ffc107;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Champs du formulaire */
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Bouton de soumission */
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+    font-weight: bold;
+    margin-bottom: 10px; /* Espace entre le bouton et le lien */
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+    color: #fff;
+}
+
+/* Lien "Créer un compte" */
+.create-account-link {
+    display: block;
+    font-size: 0.9em; /* Taille plus petite */
+    color: #ffc107;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 10px; /* Espace au-dessus du lien */
+    text-align: center; /* Centre le lien */
+}
+
+.create-account-link:hover {
+    color: #e0a800;
+}
+
+/* Styles du footer */
+.footer {
+    background-color: #315c2b; /* Fond vert */
+    color: #ffc107; /* Texte jaune */
+    padding: 20px 0;
+}
+
+.footer-description {
+    font-size: 1em;
+    color: #ffc107;
+}
+
+.footer-nav {
+    margin-top: 10px;
+}
+
+.footer-nav .footer-link {
+    color: #ffc107;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 0.9em;
+}
+
+.footer-nav .footer-link:hover {
+    color: #e0a800; /* Changement de couleur au survol */
+    text-decoration: underline;
+}
+
+/* Copyright */
+.footer p {
+    margin: 5px 0;
+    font-size: 0.85em;
+    color: #ffc107;
+}
+/* Section pour centrer le formulaire de création de compte */
+.register-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff; /* Fond blanc */
+    padding: 20px;
+}
+
+/* Contenu du formulaire de création de compte */
+.register-content {
+    background-color: rgba(0, 0, 0, 0.7); /* Fond sombre et transparent */
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Titre du formulaire */
+.register-content h2 {
+    color: #ffc107;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Champs du formulaire */
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Bouton de soumission */
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+    color: #fff;
+}
+
+.register-section {
+    background-image: url('../docs/images/flamantgroupe.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.login-section {
+    background-image: url('../docs/images/flamantgroupe.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+/* Section pour centrer le formulaire de l'avis */
+.review-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff; /* Fond blanc */
+    padding: 20px;
+    background-image: url('../docs/images/flamantgroupe.jpg'); /* Image de fond */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Contenu du formulaire d'avis */
+.review-content {
+    background-color: rgba(0, 0, 0, 0.7); /* Fond sombre et transparent */
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Titre du formulaire */
+.review-content h2 {
+    color: #ffc107;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Champs du formulaire */
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Bouton de soumission */
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+    color: #fff;
+}
+
+
+.carousel-reviews {
+    background-color: #f3f3f3;
+}
+
+.review-item {
+    background-color: rgba(0, 0, 0, 0.7); /* Fond sombre et transparent */
+    color: #ffc107;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.review-item strong {
+    color: #ffc107;
+}
+
+.review-item p {
+    margin-bottom: 0.5em;
+}
+/* Flèches du carrousel en jaune */
+.carousel-control-next-icon {
+    background-color: #ffc107; /* Couleur jaune */
+    background-size: 100%; /* Ajuste la taille pour qu'elle occupe la flèche complète */
+    border-radius: 50%; /* Donne un style arrondi pour s'intégrer au design */
+}
+/* Corps de la page */
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f3f3f3;
+}
+
+/* Section principale de contact avec image de fond */
+.contact-section {
+    width: 100vw; /* Assure que la section prend toute la largeur de l'écran */
+    margin-left: calc(-50vw + 50%); /* Enlève les marges de conteneur */
+    padding: 60px 20px;
+    background-image: url('../docs/images/flamantgroupe.jpg'); /* Chemin vers l'image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: calc(100vh - 100px);
+    padding-bottom: 20px;
+    
+
+/* Titre de section */
+.contact-section h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    color: #315c2b;
+    margin-bottom: 40px;
+}
+
+/* Fiches de l'équipe */
+.card {
+    background-color: rgba(49, 92, 43, 0.9); /* Vert foncé avec transparence */
+    color: #ffc107; /* Texte en jaune */
+    border: none; /* Retire les bordures */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ombre subtile */
+    padding: 20px;
+    transition: transform 0.3s ease; /* Effet de zoom au survol */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Déplace légèrement la carte vers le haut */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Ombre plus prononcée au survol */
+}
+
+/* Titre et texte des fiches */
+.card-title {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #ffc107; /* Jaune pour le nom */
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1em;
+    color: #f9f9f9; /* Blanc cassé pour le texte */
+}
+
+/* Espacement des colonnes */
+.card .card-body {
+    padding: 20px;
+}
+
+/* Footer */
+.footer {
+    background-color: #315c2b; /* Fond vert */
+    color: #ffc107; /* Texte jaune */
+    padding: 20px 0;
+}
+
+.footer-description {
+    font-size: 1em;
+    color: #ffc107;
+}
+
+.footer-nav {
+    margin-top: 10px;
+}
+
+.footer-nav .footer-link {
+    color: #ffc107;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 0.9em;
+}
+
+.footer-nav .footer-link:hover {
+    color: #e0a800; /* Changement de couleur au survol */
+    text-decoration: underline;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 0.85em;
+    color: #ffc107;
+}
+}
+
+
+/* SAVANE*/ 
+
+.savane-section {
+    background-image: url('../docs/images/savane_background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 60px 20px;
+    color: #fff;
+    text-align: center;
+}
+
+/* Titre de la section */
+.savane-section h1 {
+    font-size: 3em;
+    color: #ffc107;
+    margin-bottom: 40px;
+}
+
+/* Styles des cartes des animaux */
+.animal-card {
+    background-color: rgba(49, 92, 43, 0.9); /* Fond semi-transparent vert */
+    color: #ffc107; /* Texte jaune */
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.animal-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.animal-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Liste d'infos de chaque animal */
+.animal-info {
+    padding: 20px;
+    text-align: left;
+    font-size: 1em;
+    color: #f9f9f9;
+}
+
+/* univers */ 
+
+/* Styles de la section */
+.univers-section {
+    margin-top: 20px;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.univers-img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.image-container:hover .univers-img {
+    transform: scale(1.05);
+}
+
+/* Styles généraux */
+.univers-section .image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.univers-img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    transition: transform 0.4s ease;
+}
+
+/* Effet de zoom et d'élévation au survol */
+.image-container:hover .univers-img {
+    transform: scale(1.08);
+}
+
+.image-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.6);
+}
+
+/* Texte qui apparaît au hover avec fond dégradé */
+.hover-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 0;
+    background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.6));
+    color: #ffc107;
+    font-size: 1.5em;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 12px 12px;
+}
+
+.image-container:hover .hover-text {
+    opacity: 1;
+}
+
+ /* Styles pour les sections */
+ .animal-section {
+    margin: 50px 0;
+}
+
+.animal-section h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #315c2b;
+}
+
+/* Styles pour les cartes d'animaux */
+.animal-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.animal-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.animal-card:hover img {
+    transform: scale(1.05);
+}
+
+.animal-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.hover-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffc107;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.animal-card:hover .hover-text {
+    opacity: 1;
+}
+
+
+/* Style général pour les titres */
+.animal-section h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #315c2b; /* Vert foncé */
+    text-align: center;
+    margin-bottom: 30px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    cursor: pointer;
+}
+
+.animal-section h2::before,
+.animal-section h2::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 4px;
+    background-color: #ffc107; /* Jaune */
+    top: 50%;
+    transform: translateY(-50%);
+    transition: width 0.3s ease;
+}
+
+.animal-section h2::before {
+    left: 0;
+}
+
+.animal-section h2::after {
+    right: 0;
+}
+
+.animal-section h2:hover {
+    color: #ffc107; /* Jaune au survol */
+    transform: scale(1.05); /* Légère mise en avant */
+}
+
+.animal-section h2:hover::before,
+.animal-section h2:hover::after {
+    width: 100px; /* Barre jaune s'allonge */
+}

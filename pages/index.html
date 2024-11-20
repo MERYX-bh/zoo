@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcadia Zoo</title>
+    <link rel="icon" type="image/png" href="../docs/images/arcadia_logo.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container-fluid">
+            <a class="navbar-brand mx-auto" href="../pages/Index.html">ARCADIA ZOO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="../pages/Index.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="animaux.html">Animaux</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Habitats</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="savane.html">Savane</a></li>
+                            <li><a class="dropdown-item" href="foret.html">Forêt</a></li>
+                            <li><a class="dropdown-item" href="marais.html">Marais</a></li>
+                            <li><a class="dropdown-item" href="univers.html">Tous nos univers</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                            <li><a class="dropdown-item" href="avis.html">Laisser un avis</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="connexion.html">Connexion</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Section de bienvenue -->
+<section class="welcome-section">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <div class="welcome-content">
+                    <h1 class="display-4 text-white">Bienvenue au Zoo Arcadia</h1>
+                    <p class="lead text-white">
+                        Découvrez l'émerveillement de la nature au Zoo Arcadia, situé au cœur de la majestueuse forêt de Brocéliande en Bretagne. Depuis 1960, notre zoo offre une expérience immersive avec une diversité d'animaux fascinants répartis dans des habitats soigneusement conçus. Rejoignez-nous pour une aventure inoubliable et laissez-vous transporter par la magie de la nature à Arcadia.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Carrousel -->
+<section class="bg-success py-5">
+    <div class="container">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../docs/images/famille_surricate.jpg" class="d-block w-100" alt="Famille de suricates">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Famille de suricates</h5>
+                        <p>Découvrez leurs comportements fascinants.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../docs/images/train.webp" class="d-block w-100" alt="Petit train">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Le petit train</h5>
+                        <p>Un voyage unique à travers notre zoo.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../docs/images/rhinoceros.webp" class="d-block w-100" alt="Rhinocéros">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Les rhinocéros</h5>
+                        <p>Rencontrez ces géants de la savane.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Précédent</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Suivant</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- Section articles -->
+<section class="container my-5">
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h2>Transition écologique</h2>
+                    <p>Le Zoo Arcadia est un acteur clé dans les énergies renouvelables et la durabilité.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h2>Article 2</h2>
+                    <p>Informations supplémentaires sur notre zoo et ses engagements.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section avis -->
+<section class="carousel-reviews py-5 bg-light">
+    <div class="container">
+        <h3 class="text-center mb-4">Avis des visiteurs</h3>
+        <div id="reviewCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="review-item text-center p-4">
+                        <p><strong>Jean Dupont</strong></p>
+                        <p>⭐⭐⭐⭐</p>
+                        <p>Le zoo est magnifique !</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="review-item text-center p-4">
+                        <p><strong>Marie Curie</strong></p>
+                        <p>⭐⭐⭐⭐⭐</p>
+                        <p>Une expérience unique.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#reviewCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Précédent</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#reviewCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Suivant</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer bg-success text-white text-center py-4">
+    <div class="container">
+        <p class="footer-description mb-2">Arcadia est un zoo situé en France, près de la majestueuse forêt de Brocéliande.</p>
+        <ul class="footer-nav list-inline">
+            <li class="list-inline-item"><a href="../pages/Index.html" class="footer-link">Accueil</a></li>
+            <li class="list-inline-item"><a href="contact.html" class="footer-link">Contact</a></li>
+            <li class="list-inline-item"><a href="../pages/animaux.html" class="footer-link">Animaux</a></li>
+            <li class="list-inline-item"><a href="../pages/univers.html" class="footer-link">Habitats</a></li>
+        </ul>
+        <p>&copy; 2023 Arcadia Zoo - Tous droits réservés</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

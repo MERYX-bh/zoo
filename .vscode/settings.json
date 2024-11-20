@@ -1,0 +1,7 @@
+{
+    "debug.terminal.clearBeforeReusing": false,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    
+    "terminal.integrated.allowChords": true,
+    "terminal.integrated.rightClickBehavior": "selectWord"
+}
