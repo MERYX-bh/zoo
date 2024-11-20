@@ -1,6 +1,0 @@
-# config/config.yaml
-imports:
-    - { resource: services.yaml }
-    - { resource: packages/*.yaml }
-
-# Configuration générale du projet
